@@ -4,120 +4,144 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vishal Gurjar - DevOps & Cloud Engineer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Loading Animation -->
+    <!-- Loading Screen -->
     <div class="loader" id="loader">
-        <div class="loading-text">
-            <span>V</span>
-            <span>I</span>
-            <span>S</span>
-            <span>H</span>
-            <span>A</span>
-            <span>L</span>
-            <span style="width: 12px; display: inline-block;"></span>
-            <span>G</span>
-            <span>U</span>
-            <span>R</span>
-            <span>J</span>
-            <span>A</span>
-            <span>R</span>
+        <div class="loading-animation">
+            <div class="loading-text">VISHAL</div>
+            <div class="loading-subtitle">DevOps Engineer</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
         </div>
-        <div class="loading-subtitle">DevOps Engineer</div>
     </div>
 
-    <!-- Floating 3D Background Elements -->
-    <div class="floating-bg">
-        <div class="float-element cube"></div>
-        <div class="float-element sphere"></div>
-        <div class="float-element pyramid"></div>
-        <div class="float-element cylinder"></div>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+        <div class="floating-shape shape-4"></div>
     </div>
 
     <!-- Navigation -->
-    <nav class="navbar glass-morphism">
-        <div class="nav-brand">
-            <span class="brand-text">Vishal Gurjar</span>
-            <div class="brand-dot"></div>
-        </div>
-        <ul class="nav-menu">
-            <li><a href="#home" class="nav-link active">Home</a></li>
-            <li><a href="#about" class="nav-link">About</a></li>
-            <li><a href="#skills" class="nav-link">Skills</a></li>
-            <li><a href="#projects" class="nav-link">Projects</a></li>
-            <li><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
-        <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Vishal</span>
+                <div class="logo-dot"></div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1 class="hero-name">
-                    <span class="text-reveal">Vishal</span>
-                    <span class="text-reveal">Gurjar</span>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Available for New Opportunities</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Vishal Gurjar</span>
+                    <span class="title-subtitle">DevOps & Cloud Engineer</span>
                 </h1>
-                <p class="hero-title text-reveal">DevOps & Cloud Engineer</p>
-                <p class="hero-subtitle text-reveal">
-                    Architecting scalable cloud solutions with 99.9% uptime
+                <p class="hero-description">
+                    Building scalable cloud infrastructure with 99.9% uptime. 
+                    Specialized in AWS, Docker, Kubernetes & CI/CD automation.
                 </p>
+                
                 <div class="hero-buttons">
                     <a href="#projects" class="btn btn-primary">
-                        <i class="fas fa-code"></i>
-                        View Projects
+                        <i class="fas fa-rocket"></i>
+                        <span>View My Work</span>
+                        <div class="btn-arrow">→</div>
                     </a>
-                    <a href="/resume.pdf" class="btn btn-outline" download>
+                    <a href="/resume.pdf" class="btn btn-secondary" download>
                         <i class="fas fa-download"></i>
-                        Download CV
+                        <span>Download Resume</span>
+                        <div class="btn-arrow">→</div>
                     </a>
                 </div>
-                <div class="social-links">
-                    <a href="https://github.com/gurjar-vishal" class="social-link">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://linkedin.com/in/vg-ahir-444-devops" class="social-link">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="mailto:vgahir6353@gmail.com" class="social-link">
-                        <i class="fas fa-envelope"></i>
-                    </a>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">99.9%</div>
+                        <div class="stat-label">Uptime</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">25+</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">90%</div>
+                        <div class="stat-label">Automation</div>
+                    </div>
                 </div>
             </div>
+
             <div class="hero-visual">
-                <div class="floating-card glass-morphism">
-                    <div class="card-icon">
-                        <i class="fab fa-aws"></i>
+                <div class="tech-cards">
+                    <div class="tech-card card-aws">
+                        <div class="card-icon">
+                            <i class="fab fa-aws"></i>
+                        </div>
+                        <div class="card-content">
+                            <h4>AWS Certified</h4>
+                            <p>Cloud Practitioner</p>
+                        </div>
+                        <div class="card-arrow">→</div>
                     </div>
-                    <h3>AWS Certified</h3>
-                    <p>Cloud Practitioner</p>
-                </div>
-                <div class="floating-card glass-morphism delay-1">
-                    <div class="card-icon">
-                        <i class="fab fa-docker"></i>
+
+                    <div class="tech-card card-docker">
+                        <div class="card-icon">
+                            <i class="fab fa-docker"></i>
+                        </div>
+                        <div class="card-content">
+                            <h4>Docker Expert</h4>
+                            <p>Container Orchestration</p>
+                        </div>
+                        <div class="card-arrow">→</div>
                     </div>
-                    <h3>Docker Expert</h3>
-                    <p>Container Orchestration</p>
-                </div>
-                <div class="floating-card glass-morphism delay-2">
-                    <div class="card-icon">
-                        <i class="fas fa-infinity"></i>
+
+                    <div class="tech-card card-kubernetes">
+                        <div class="card-icon">
+                            <i class="fas fa-dharmachakra"></i>
+                        </div>
+                        <div class="card-content">
+                            <h4>Kubernetes</h4>
+                            <p>Production Ready</p>
+                        </div>
+                        <div class="card-arrow">→</div>
                     </div>
-                    <h3>DevOps Pipeline</h3>
-                    <p>CI/CD Automation</p>
+
+                    <div class="tech-card card-jenkins">
+                        <div class="card-icon">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                        <div class="card-content">
+                            <h4>CI/CD Pipeline</h4>
+                            <p>Jenkins & GitHub Actions</p>
+                        </div>
+                        <div class="card-arrow">→</div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="scroll-indicator">
-            <div class="mouse">
-                <div class="wheel"></div>
             </div>
         </div>
     </section>
@@ -125,40 +149,42 @@
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text glass-morphism">
-                    <h3>DevOps Engineer with Real-World Impact</h3>
-                    <p>Currently working as <strong>Cloud Engineer Intern</strong> at CoreXtech IT Services, I specialize in creating robust, automated systems that deliver consistent results.</p>
-                    
-                    <div class="stats-grid">
-                        <div class="stat-item">
-                            <div class="stat-number">99.9%</div>
-                            <div class="stat-label">System Uptime</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">90%</div>
-                            <div class="stat-label">Automation Rate</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">25+</div>
-                            <div class="stat-label">Projects Deployed</div>
-                        </div>
-                    </div>
+            <div class="section-header">
+                <span class="section-tag">Get to know me</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
 
-                    <div class="achievements">
-                        <div class="achievement-item">
-                            <i class="fas fa-graduation-cap"></i>
-                            <span>B.E. Computer Engineering @ VGEC (7.6 CPI)</span>
+            <div class="about-grid">
+                <div class="about-content">
+                    <div class="about-card">
+                        <div class="card-header">
+                            <h3>DevOps Engineer with Real Impact</h3>
                         </div>
-                        <div class="achievement-item">
-                            <i class="fas fa-award"></i>
-                            <span>AWS Cloud Quest Certified</span>
+                        <div class="card-body">
+                            <p>Currently working as <strong>Cloud Engineer Intern</strong> at CoreXtech IT Services, specializing in automated systems that deliver consistent results.</p>
+                            
+                            <div class="achievements">
+                                <div class="achievement">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <span>B.E. Computer Engineering @ VGEC (7.6 CPI)</span>
+                                </div>
+                                <div class="achievement">
+                                    <i class="fas fa-award"></i>
+                                    <span>AWS Cloud Quest Certified</span>
+                                </div>
+                                <div class="achievement">
+                                    <i class="fas fa-certificate"></i>
+                                    <span>Oracle Cloud DevOps Professional</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="achievement-item">
-                            <i class="fas fa-certificate"></i>
-                            <span>Oracle Cloud DevOps Professional</span>
-                        </div>
+                        <div class="card-arrow">→</div>
+                    </div>
+                </div>
+
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-tie"></i>
                     </div>
                 </div>
             </div>
@@ -168,46 +194,65 @@
     <!-- Skills Section -->
     <section id="skills" class="skills">
         <div class="container">
-            <h2 class="section-title">Technical Expertise</h2>
+            <div class="section-header">
+                <span class="section-tag">My expertise</span>
+                <h2 class="section-title">Technical Skills</h2>
+            </div>
+
             <div class="skills-grid">
-                <div class="skill-category glass-morphism">
-                    <div class="category-icon">
-                        <i class="fab fa-aws"></i>
+                <div class="skill-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fab fa-aws"></i>
+                        </div>
+                        <h3>Cloud & DevOps</h3>
                     </div>
-                    <h3>Cloud & DevOps</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">AWS</span>
-                        <span class="skill-tag">Docker</span>
-                        <span class="skill-tag">Kubernetes</span>
-                        <span class="skill-tag">Jenkins</span>
-                        <span class="skill-tag">GitHub Actions</span>
+                    <div class="card-body">
+                        <div class="skill-tags">
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Kubernetes</span>
+                            <span class="skill-tag">Jenkins</span>
+                            <span class="skill-tag">GitHub Actions</span>
+                        </div>
                     </div>
+                    <div class="card-arrow">→</div>
                 </div>
 
-                <div class="skill-category glass-morphism">
-                    <div class="category-icon">
-                        <i class="fas fa-chart-line"></i>
+                <div class="skill-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Monitoring & Security</h3>
                     </div>
-                    <h3>Monitoring & Security</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">Prometheus</span>
-                        <span class="skill-tag">Grafana</span>
-                        <span class="skill-tag">SonarQube</span>
-                        <span class="skill-tag">Trivy</span>
+                    <div class="card-body">
+                        <div class="skill-tags">
+                            <span class="skill-tag">Prometheus</span>
+                            <span class="skill-tag">Grafana</span>
+                            <span class="skill-tag">SonarQube</span>
+                            <span class="skill-tag">Trivy</span>
+                        </div>
                     </div>
+                    <div class="card-arrow">→</div>
                 </div>
 
-                <div class="skill-category glass-morphism">
-                    <div class="category-icon">
-                        <i class="fas fa-code"></i>
+                <div class="skill-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Programming & Tools</h3>
                     </div>
-                    <h3>Programming & Tools</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">Shell Scripting</span>
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">Linux</span>
+                    <div class="card-body">
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Shell Scripting</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Linux</span>
+                        </div>
                     </div>
+                    <div class="card-arrow">→</div>
                 </div>
             </div>
         </div>
@@ -216,51 +261,71 @@
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
+            <div class="section-header">
+                <span class="section-tag">My work</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+
             <div class="projects-grid">
-                <div class="project-card glass-morphism">
-                    <div class="project-image">
+                <div class="project-card">
+                    <div class="card-image">
                         <div class="project-overlay">
                             <div class="project-links">
-                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
-                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div class="project-info">
+                    <div class="card-content">
+                        <div class="project-meta">
+                            <span class="project-date">May 2025</span>
+                            <span class="project-status">Production</span>
+                        </div>
                         <h3>Netflix Clone - DevSecOps Pipeline</h3>
-                        <p>Complete CI/CD pipeline with security scanning, monitoring, and automated deployments. Achieved 100% deployment success rate.</p>
-                        <div class="project-tech">
+                        <p>Complete CI/CD pipeline with security scanning, monitoring, and automated deployments. Achieved 100% deployment success rate with zero downtime.</p>
+                        <div class="tech-stack">
                             <span>Jenkins</span>
                             <span>Docker</span>
                             <span>AWS</span>
                             <span>SonarQube</span>
                             <span>Prometheus</span>
                         </div>
-                        <div class="project-date">May 2025</div>
                     </div>
+                    <div class="card-arrow">→</div>
                 </div>
 
-                <div class="project-card glass-morphism">
-                    <div class="project-image">
+                <div class="project-card">
+                    <div class="card-image">
                         <div class="project-overlay">
                             <div class="project-links">
-                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
-                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div class="project-info">
+                    <div class="card-content">
+                        <div class="project-meta">
+                            <span class="project-date">Apr 2025</span>
+                            <span class="project-status">Live</span>
+                        </div>
                         <h3>3-Tier AWS Web Application</h3>
-                        <p>Scalable 3-tier architecture with VPC, load balancers, and RDS. Optimized for 40% faster load times.</p>
-                        <div class="project-tech">
+                        <p>Scalable 3-tier architecture with VPC, load balancers, and RDS. Optimized for 40% faster load times with high availability setup.</p>
+                        <div class="tech-stack">
                             <span>AWS EC2</span>
                             <span>RDS</span>
                             <span>VPC</span>
                             <span>Load Balancer</span>
                         </div>
-                        <div class="project-date">Apr 2025</div>
                     </div>
+                    <div class="card-arrow">→</div>
                 </div>
             </div>
         </div>
@@ -269,42 +334,80 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">Let's Build Something Amazing</h2>
-            <div class="contact-content">
-                <div class="contact-info glass-morphism">
-                    <h3>Get In Touch</h3>
-                    <p>Ready to discuss your next DevOps project? Let's connect and create scalable solutions together.</p>
-                    
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <span>vgahir6353@gmail.com</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <span>+91 9909083139</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Chandkheda, Gujarat</span>
-                        </div>
-                    </div>
+            <div class="section-header">
+                <span class="section-tag">Let's connect</span>
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
 
-                    <div class="social-links-contact">
-                        <a href="https://github.com/gurjar-vishal" class="social-link">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="https://linkedin.com/in/vg-ahir-444-devops" class="social-link">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="https://gurjar-vishal.me" class="social-link">
-                            <i class="fas fa-globe"></i>
-                        </a>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="card-header">
+                            <h3>Ready to Build Something Amazing?</h3>
+                            <p>Let's discuss your next DevOps project and create scalable solutions together.</p>
+                        </div>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="item-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="item-content">
+                                    <span class="item-label">Email</span>
+                                    <span class="item-value">vgahir6353@gmail.com</span>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="item-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="item-content">
+                                    <span class="item-label">Phone</span>
+                                    <span class="item-value">+91 9909083139</span>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="item-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="item-content">
+                                    <span class="item-label">Location</span>
+                                    <span class="item-value">Chandkheda, Gujarat</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://github.com/gurjar-vishal" class="social-link">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://linkedin.com/in/vg-ahir-444-devops" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://gurjar-vishal.me" class="social-link">
+                                <i class="fas fa-globe"></i>
+                                <span>Website</span>
+                            </a>
+                        </div>
+                        <div class="card-arrow">→</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Vishal Gurjar. Built with passion for DevOps excellence.</p>
+            </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
